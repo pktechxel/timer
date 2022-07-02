@@ -159,11 +159,11 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
               children: [
                 ElevatedButton(
                   onPressed: started ? start : null,
-                  child: Text('Start'),
+                  child: const Text('Start'),
                 ),
                 ElevatedButton(
                   onPressed: stopped ? null : stop,
-                  child: Text('Stop'),
+                  child: const Text('Stop'),
                 ),
               ],
             ),
