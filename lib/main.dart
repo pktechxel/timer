@@ -191,7 +191,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
           body: TabBarView(
             children: [
               timer(),
-              Icon(Icons.directions_transit),
+              const Icon(Icons.access_time),
             ],
           ),
         ),
